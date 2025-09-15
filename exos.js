@@ -75,3 +75,41 @@ personnes[0].prenom = "Jean";
 personnes.splice(1, 1);
 console.log(personnes);
 console.table(personnes);
+
+// Exo 5
+const arr = [];
+for(let i=1; i<=10; i++){
+    arr.push(i);
+};
+
+console.log(arr[0]);
+console.log(arr[arr.length-1]);
+console.log(arr.length);
+
+// Exo 6
+const arr1 = [];
+for(let i=10; i<=100; i+=10){
+    arr1.push(i);
+};
+
+console.log(arr1);
+arr1.reverse();
+console.log(arr1);
+
+// Exo 7
+const numbers = [2, 5, 1, 9, 0, 3, 7, 4, 6, 8];
+console.log(numbers);
+numbers.sort();
+console.log(numbers);
+
+// Exo 8
+numbers.push(11);
+console.log(numbers);
+numbers.unshift(0);
+console.log(numbers);
+numbers.pop();
+console.log(numbers);
+
+
+
+
