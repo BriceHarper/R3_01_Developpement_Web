@@ -1,3 +1,4 @@
+/* Page 33 */
 // Exo 1
 let celcius = 20;
 console.log(`En celcius : ${celcius}. En fahrenheit : ${celcius * 9/5 + 32}`);
@@ -20,3 +21,22 @@ console.log(`Montan HT : ${prixHT} Montant TVA : ${TVA} Montant TTC ${prixHT * (
 
 // Exo 5
 console.log( ((4>=6) || ("herbe" != "verte")) && !(((12*2)==144)&& true) );
+
+// Exo 6
+
+let poids = 66;
+let taille = 1.77;
+let IMC = poids / (taille * taille);
+console.log(Math.round(IMC).toFixed(2));
+
+// Exo 7
+
+const nbCommandesMini = 60;
+let montantTotal = 20;
+if(montantTotal >= nbCommandesMini) console.log("Livraison gratuite !");
+else console.log("Frais de livraison : 6,99€");
+
+// Exo 8
+let binaire = "01101011";
+console.log(`Nombre binaire : ${binaire} ; Decimal : ${parseInt(binaire, 2)}`);
+
