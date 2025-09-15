@@ -40,3 +40,38 @@ else console.log("Frais de livraison : 6,99€");
 let binaire = "01101011";
 console.log(`Nombre binaire : ${binaire} ; Decimal : ${parseInt(binaire, 2)}`);
 
+/* Page 49 */
+
+// Exo 1
+
+const personne = {
+    prenom: "Brice",
+    nom: "Ramette",
+    age: 20,
+    ville: "Ifs"
+};
+
+console.log(personne.prenom);
+console.log(personne.nom);
+console.log(personne.age);
+console.log(personne.ville);
+
+// Exo 2
+const personnes = [
+    {prenom: "John", nom: "Doe", age: 25, ville: "Rouen"},
+    {prenom: "Jane", nom: "Doe", age: 30, ville: "Paris"},
+    {prenom: "Jim", nom: "Doe", age: 35, ville: "Caen"},
+];
+console.log(personnes);
+console.table(personnes);
+
+// Exo 3
+personnes.push({prenom: "Marc", nom: "Doe", age: 32, ville: "Marseille"});
+console.log(personnes);
+console.table(personnes);
+
+// Exo4
+personnes[0].prenom = "Jean";
+personnes.splice(1, 1);
+console.log(personnes);
+console.table(personnes);
