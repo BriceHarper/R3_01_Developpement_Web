@@ -26,10 +26,10 @@ buttons.forEach((e)=>{
         ){
             nbVictoires++;
         } else if(e.textContent == "Réinitialiser le jeu"){
-            nbVictoires = 0;
-            nbEgal = 0;
-            nbDefaites = 0;
-            
+            // nbVictoires = 0;
+            // nbEgal = 0;
+            // nbDefaites = 0;
+            document.location.reload();
         } else{
             console.log("Problème");
         }
